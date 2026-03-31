@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-display: "Anton", sans-serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-burgundy: #720e1c;
+  --color-burgundy-light: #8b1525;
+  --color-burgundy-dark: #5a0b16;
+  --color-cream: #fdfcf0;
+  --color-gold: #d4af37;
+  --color-gold-light: #e5c158;
+  --color-ink: #1a1a1a;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-wider uppercase;
+  }
+}
+
+.retro-grid {
+  background-image: radial-gradient(circle at 2px 2px, rgba(114, 14, 28, 0.05) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.metallic-shine {
+  background: linear-gradient(
+    45deg,
+    rgba(212, 175, 55, 0.1) 0%,
+    rgba(212, 175, 55, 0.3) 50%,
+    rgba(212, 175, 55, 0.1) 100%
+  );
+}

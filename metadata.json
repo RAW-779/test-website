@@ -1,0 +1,7 @@
+{
+  "name": "Crimson Spark - Boldly Unique Beverage",
+  "description": "A premium, retro-modern beverage brand website featuring bold flavors, interactive storytelling, and a sleek UI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
